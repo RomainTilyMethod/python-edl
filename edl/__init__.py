@@ -3,7 +3,7 @@
 Python EDL parsing library
 """
 import sys
-import collections
+import collections.abc as collections
 import re
 import pprint
 import timecode

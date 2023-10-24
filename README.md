@@ -5,14 +5,16 @@ A python EDL (Edit Decision List) parsing library, based on the ruby EDL
 library by Julik Tarkhanov http://guerilla-di.org/edl/. Still a work in
 progress so collaboration welcome.
 
-Uses pytimecode.py to handle the Timecode mathematics and should run on
-Python 2.7+
+Uses pytimecode.py to handle the Timecode mathematics.
+<br>Merge master with MiguelUpdate that contained fixes.<br>
+
+Forked and tested on <b>Python3.11</b>
 
 https://github.com/simonh10/python-edl
 
 Usage::
 
-    from edl.edl import Parser
+    from edl import Parser
     parser=Parser('23.98')
     with open('file.edl') as f:
         edl=parser.parse(f)
